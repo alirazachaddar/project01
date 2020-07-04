@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div >
-      Hello world. Thanks to React
+      Hello world. Thanks to React. it from auto deploy
     </div>
   );
 }
