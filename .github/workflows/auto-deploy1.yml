@@ -36,4 +36,4 @@ jobs:
       run:  npm install --global surge
         
     - name: deploying on surge
-      run:  surge ./build http://alirazachaddar.surge.sh/ --token "fbb73afce620c61d8f2ad96f1b175e6d"   
+      run:  surge ./ http://alirazachaddar.surge.sh/ --token "fbb73afce620c61d8f2ad96f1b175e6d"   
