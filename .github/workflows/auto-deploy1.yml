@@ -33,7 +33,7 @@ jobs:
            cmd: install
         
     - name: installing surge
-      run:  npm install -g surge
+      run:  npm install -g yarn
         
     - name: deploying on surge
       run:  surge ./build http://alirazachaddar.surge.sh/ --token "fbb73afce620c61d8f2ad96f1b175e6d"   
